@@ -70,6 +70,6 @@ with open('results.json', 'r') as fp:
 
     print("marginal seats: " + len(marginals))
     print("left: {} right: {}".format(left_tot, right_tot))
-    print("left_lost: {} right_lost: {}".format(left_lost, right_lost))
-    print("left_same: {} right_same: {}".format(left_same, right_same))
+    #print("left_lost: {} right_lost: {}".format(left_lost, right_lost))
+    #print("left_same: {} right_same: {}".format(left_same, right_same))
 
