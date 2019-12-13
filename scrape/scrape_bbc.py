@@ -29,4 +29,4 @@ for code in codes:
 
 import json
 with open('results.json', 'w') as fp:
-    json.dump(results, fp, indent=2)
+    json.dump(results, fp)#, indent=2)
